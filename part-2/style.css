@@ -1,0 +1,42 @@
+body{
+    padding: 40px;
+}
+
+#root{
+    width: 50%;
+    margin: auto;
+}
+
+.tweet-container{
+    padding: 10px;
+    border: 1px solid rgb(239, 243, 244);
+    cursor: pointer;
+}
+
+.tweet-container:hover{
+    background-color: rgb(239, 243, 244);
+}
+
+.tweet-container:first-child{
+    border-bottom: 0;
+}
+
+.tweet-container:last-child{
+    border-top: 0;
+}
+
+span:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+span{
+    color: rgb(83, 100, 113);
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.message{
+    font-size: 20px;
+}
